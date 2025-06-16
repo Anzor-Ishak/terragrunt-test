@@ -5,3 +5,7 @@ terraform {
     }
   }
 }
+
+output "test_trigger" {
+  value = "testing plan policy"
+}
